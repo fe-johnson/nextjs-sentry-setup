@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 
 const SRC_DIR = path.join(process.cwd(), "src");
 const APP_DIR = path.join(SRC_DIR, "app");
